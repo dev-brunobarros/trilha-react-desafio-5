@@ -41,7 +41,7 @@ export default function PostPage({
         </header>
         <main>
           <article className="prose dark:prose-dark">
-            {posts.body}
+            {posts[0].body}
           </article>
         </main>
       </article>
